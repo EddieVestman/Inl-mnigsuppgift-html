@@ -1,0 +1,83 @@
+body {
+	color:white;
+	background-image: url("https://images.wallpaperscraft.com/image/english_bulldog_dog_muzzle_lying_110936_1920x1080.jpg");
+	
+}
+h1{
+	font-family:"arial";
+	font-size: 52px;
+	text-align: center;
+	
+}
+
+h2{
+	font-family:"arial";
+	font-size: 40px;
+}
+nav {
+	float: center;
+		
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;	
+
+}
+
+nav li {
+	display:inline-block;
+	font-size:20px;
+}  
+nav a{
+	
+	text-decoration: none;
+	color:white;
+	
+}
+
+
+div {
+	 text-align: center;
+}
+
+.box {
+	
+	width:700px;
+	height:700px;
+	position: fixed;
+	right:150px;
+	left:600px;
+	
+}
+
+.white {
+	background-color:white;
+	
+}
+.info {
+	color:black;
+}
+.info2 {
+color:black;	
+}
+.rubrik2 {
+color:black;
+font-size:20px;
+}
+.egenskaper {
+color:black;
+}
+.utseende {
+color:black;
+font-size:20px;	
+}
+.utseende2 {
+color:black;
+}
+.hälsa{
+color:black;
+font-size:20px;
+}
+.hälsa2{
+color:black;
+}
