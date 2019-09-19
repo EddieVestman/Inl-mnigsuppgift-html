@@ -15,11 +15,11 @@ h2{
 	font-size: 40px;
 }
 nav {
-	float: center;
+	float: inherit;
 		
 }
 nav ul {
-	list-style-type: none;
+	list-style-type:none;
 	padding: 0;	
 
 }
@@ -36,7 +36,7 @@ nav a{
 }
 
 
-div {
+main {
 	 text-align: center;
 }
 
@@ -100,7 +100,23 @@ table, td, th {
 }
 caption {
 	font-size: 20px;
-	caption-side: above;
+	caption-side: top;
 	text-align: center;
 	font-family: arial;
+}
+.link {
+text-decoration:none;
+color:lime;	
+}
+.colorslist {
+	text-decoration:circle;
+	color:black;
+	font-size:18px;
+	position: absolute;
+	top: 450px;
+	right: 0px;
+}
+.listrubrik {
+color:black;
+
 }
