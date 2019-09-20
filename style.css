@@ -1,12 +1,12 @@
-body {
+body {  /*Style body*/ 
 	color:white;
-	background-image: url("https://images.wallpaperscraft.com/image/english_bulldog_dog_muzzle_lying_110936_1920x1080.jpg");
+	background-image: url("https://images.wallpaperscraft.com/image/english_bulldog_dog_muzzle_lying_110936_1920x1080.jpg");/*Bestämer bakgrunds bilen på sidorna*/
 	
 }
-h1{
-	font-family:"arial";
-	font-size: 52px;
-	text-align: center;
+h1{ /* Style för Rubrik 1*/ 
+	font-family:"arial"; /*Bestämer font*/
+	font-size: 52px;/*Bestämer fontents storlek*/
+	text-align: center;/*Sätter texten i mitten*/
 	
 }
 
@@ -14,24 +14,24 @@ h2{
 	font-family:"arial";
 	font-size: 40px;
 }
-nav {
-	float: inherit;
+nav { /* Style för Rubrik 1*/
+	float: inherit; /*placerat ett element på höger eller vänster sida om containern*/
 		
 }
-nav ul {
-	list-style-type:none;
-	padding: 0;	
+nav ul {/* Style för nav listan */
+	list-style-type:none;/*Tar bort style på listan*/
+	padding: 0;	/*lägger samma en justering på fyllnaden på alla kanter*/ 
 
 }
 
-nav li {
-	display:inline-block;
+nav li {/* Style för kolomunerna i nav*/
+	display:inline-block;/*bestämmer hur ett element skall visas*/
 	font-size:20px;
 }  
 nav a{
 	
-	text-decoration: none;
-	color:white;
+	text-decoration: none;/*tar bort dekoration från text*/
+	color:white;/*Ändrar färgen på texten*/
 	
 }
 
@@ -42,38 +42,38 @@ main {
 
 .box {
 	
-	width:700px;
-	height:700px;
-	position: fixed;
-	right:150px;
-	left:600px;
-	
+	width:1910px;/*Bestämer bredd*/
+	height:900px;/*Bestämer höjd*/
+	right:150px;/*Flyttar boxen till höger*/
+	left:600px;/*Flyttar boxen till höger*/
 }
 
-.white {
-	background-color:white;
+.white/*klass för bakgrunden*/ {
+	background-color:white;/*Bestämer en bakgrunds färg*/ 
 	
 }
-.info {
+.info/*klass för ena informations texten*/ {
 	color:black;
 }
-.info2 {
+.info2 /*Andra informations texten*/{
 	color:black;	
 }
-.rubrik2 {
+.rubrik2/*En klass för rubrien vid informationen*/ {
 	color:black;
 	font-size:20px;
 }
-.egenskaper {
+.egenskaper/*En klass för inforamtion*/ {
 	color:black;
 }
 
-.tabell{
+.tabell/*styleing för*/{
 	color:black;
 	text-align: Right;
+	
 }
   
-th:nth-child(1) {
+th:nth-child(1)/*psuedoklasselektor för tabellen
+*/{
 	text-align: center;
 }
 
@@ -94,29 +94,27 @@ tr:nth-child(3), tr:nth-child(5) {
 table {	
 	width: 20%;
 }
-table, td, th {
-	border:1px solid black;
-	border-collapse:collapse;
+table, td, th/*gruppselektor*/{
+	border:1px solid black;/*Sätter en gräns/ram runt tabellen*/  
+
+	border-collapse:collapse; /*Gränsen mellan tabbelerna flytter ihop*/
 }
 caption {
 	font-size: 20px;
-	caption-side: top;
+	caption-side: top;/*Bestämmer vart rubriken på tabellen*/
 	text-align: center;
 	font-family: arial;
 }
 .link {
-text-decoration:none;
-color:lime;	
+	text-decoration:none;
+	color:lime;	
 }
 .colorslist {
 	text-decoration:circle;
 	color:black;
-	font-size:18px;
-	position: absolute;
-	top: 450px;
-	right: 0px;
+	text-align:left;
 }
 .listrubrik {
-color:black;
-
+	color:black;
+	text-align:left;
 }
