@@ -52,17 +52,17 @@ main {
 	background-color:white;/*Bestämer en bakgrunds färg*/ 
 	
 }
-.info/*klass för ena informations texten*/ {
+.info/*klass för ena informations textenvet att man kan göra det lättare genom att sätta dem i en gruppselektor */ {
 	color:black;
 }
-.info2 /*Andra informations texten*/{
+.info2 /*Andra informations texten, vet att man kan göra det lättare genom att sätta dem i en gruppselektor */{
 	color:black;	
 }
-.rubrik2/*En klass för rubrien vid informationen*/ {
+.rubrik2/*En klass för rubrien vid informationen vet att man kan göra det lättare genom att sätta dem i en gruppselektor */ {
 	color:black;
 	font-size:20px;
 }
-.egenskaper/*En klass för inforamtion*/ {
+.egenskaper/*En klass för inforamtio nvet att man kan göra det lättare genom att sätta dem i en gruppselektor */ {
 	color:black;
 }
 
